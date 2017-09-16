@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pelicula"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.marcelo.myapplicationrecefinal.IngredienteActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Busca tu Comida "
+        android:textAlignment="center"
+        android:textSize="@dimen/textTitle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="by Marcelo Aruquipa "
+        android:textAlignment="center"
+        android:textSize="@dimen/textSmall"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:src="@mipmap/android_chef"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/datosBuscarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buscarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonBusqueda" />
+
+
+</LinearLayout>
